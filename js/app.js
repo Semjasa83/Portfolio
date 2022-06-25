@@ -1,4 +1,4 @@
-const sections = document.querySelectorAll('.section'); //quersSelectorAll wählt alle .section an
+const sections = document.querySelectorAll('.section'); //quersSelectorAll triggers all ".section"
 const sectBtns = document.querySelectorAll('.controls');
 const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
