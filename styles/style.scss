@@ -328,6 +328,7 @@ section {
     position: relative;
     &::before{
         content: '';
+        position: absolute;
         left: 50%;
         top: 0;
         width: 40%;
@@ -465,6 +466,38 @@ section {
     transform: scale(1);
 }
 
+//Blogs Section
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    .blog{
+        position: relative;
+        background-color: var(--color-grey-5);
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px rgba(0,0,0, 0.1);
+        transition: all .4s ease-in-out;
+        &:hover{
+            box-shadow: 1px 1px 20px rgba(0,0,0, 0.3);
+            transform: translateY(-5px);
+            transition: all .4s ease-in-out;
+            img{
+                filter: grayscale(0);
+                transform: scale(1.1);
+                box-shadow: 1px 4px 20px rgba(0,0,0,0.8);
+            }
+        }
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        } //2:06:00 YT
+    }
+}
 
 /* Independed components */
 .btn-con {
