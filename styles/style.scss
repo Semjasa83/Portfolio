@@ -6,8 +6,8 @@
 }
 
 :root {
-    --color-primary: #191d2b;
-    --color-secondary: #27AE60;
+    --color-primary: #13151f; /* #191d2b */
+    --color-secondary: #ff6200; /* #27AE60 #ff6200 */
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #8f8f8f;
@@ -486,7 +486,7 @@ section {
             img{
                 filter: grayscale(0);
                 transform: scale(1.1);
-                box-shadow: 1px 4px 20px rgba(0,0,0,0.8);
+                box-shadow: 0px 4px 15px rgba(0,0,0,0.8);
             }
         }
         img{
@@ -495,7 +495,28 @@ section {
             object-fit: cover;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
-        } //2:06:00 YT
+            filter: grayscale(100%);
+            transition: all .4s ease-in-out;
+        } 
+        .blog-text {
+            margin-top: -7px;
+            padding: 1.1rem;
+            border-top: 8px solid var(--color-secondary);
+            h4{
+                font-size: 1.5rem;
+                margin-bottom: .7rem;
+                transition: all .4s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                    color: var(--color-secondary);
+                }
+            }
+            p{
+                color: var(--color-grey-2);
+                line-height: 2rem;
+                padding-bottom: 1rem;
+            }
+        }
     }
 }
 
