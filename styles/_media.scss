@@ -1,21 +1,22 @@
+@media screen and (max-width: 1600px) {
+    //1510px
 
-@media screen and (max-width: 1600px) { //1510px
-    
     header {
         padding: 0 !important;
     }
-    
+
     .section {
         padding: 7rem 11rem;
     }
 
     .contact-content-con {
         flex-direction: column;
+
         .right-contact {
             margin-left: 0;
             margin-top: 2.5rem;
         }
-    }   
+    }
 
     .contact-content-con .right-contact .i-c-2 {
         flex-direction: column;
@@ -27,24 +28,28 @@
     }
 
     .sec3 {
-        .port-text{
+        .port-text {
             margin-top: 3rem;
         }
     }
 
-    .about-container{
+    .about-container {
         .left-about {
             margin-top: 2rem;
         }
-        .right-about{
+
+        .right-about {
             margin-top: 2rem;
         }
     }
 }
 
-@media screen and (max-width: 1150px) { //1150
+@media screen and (max-width: 1150px) {
+
+    //1150
     .about-container {
         grid-template-columns: 1fr;
+
         .right-about {
             padding-top: 2.5rem;
         }
@@ -54,16 +59,18 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .blogs{
+    .blogs {
         grid-template-columns: 1fr 1fr;
     }
 
     .main-title {
-        h2{
+        h2 {
             font-size: 4rem;
-            span{
+
+            span {
                 font-size: 4rem;
             }
+
             .bg-text {
                 font-size: 6rem;
             }
@@ -72,14 +79,15 @@
 }
 
 @media screen and (max-width: 970px) {
-    .section{
+    .section {
         padding: 7rem 6rem;
     }
 
-    header{
+    header {
         padding: 0;
     }
-    header .right-header{
+
+    header .right-header {
         padding: 0rem !important;
     }
 
@@ -92,9 +100,9 @@
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
-    
+
     .left-header {
-        .h-shape{
+        .h-shape {
             display: none;
         }
     }
@@ -103,7 +111,8 @@
         grid-row: 1;
         width: 90%;
         margin: 0 auto;
-        .name{
+
+        .name {
             font-size: 2.5rem !important;
         }
     }
@@ -122,6 +131,7 @@
         transform: translateX(-50%);
         width: 100%;
         background-color: var(--color-grey-5);
+
         .control {
             margin: .7rem 1.5rem;
         }
@@ -131,25 +141,28 @@
 @media screen and (max-width: 600px) {
     .about-container {
         grid-template-columns: 1fr;
-        .right-about{
+
+        .right-about {
             grid-template-columns: 1fr;
             padding-top: 2.5rem;
         }
+
         .left-about {
             padding-right: 0;
-            p{
+
+            p {
                 padding-left: 0;
             }
         }
     }
 
-    .timeline{
+    .timeline {
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
 
-    .about-stats{
-        .progress-bars{
+    .about-stats {
+        .progress-bars {
             grid-template-columns: 1fr;
         }
     }
@@ -159,18 +172,19 @@
         padding-bottom: 6rem;
     }
 
-    .blogs{
+    .blogs {
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
 
     .contact-content-con {
         flex-direction: column;
+
         .right-contact {
             margin-left: 0;
             margin-top: 2.5rem;
         }
-    }   
+    }
 
     .contact-content-con .right-contact .i-c-2 {
         flex-direction: column;
@@ -181,20 +195,22 @@
         margin-top: 1.5rem;
     }
 
-    .contact-form{
+    .contact-form {
         margin-bottom: 4rem;
     }
 
-    .section{
+    .section {
         padding: 2rem 2.5rem !important;
     }
 
-    .main-title{
-        h2{
+    .main-title {
+        h2 {
             font-size: 2rem !important;
-            span{
+
+            span {
                 font-size: 2.5rem !important;
             }
+
             .bg-text {
                 font-size: 3rem !important;
             }
@@ -208,9 +224,21 @@
     }
 }
 
+@media screen and (max-width: 510px) {
+    .contact-content-con {
+        .contact-icons {
+            .data-imprint {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 435px) {
     .contact-item {
         flex-direction: column;
         align-items: unset !important;
     }
 }
+
