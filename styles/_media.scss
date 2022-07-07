@@ -239,6 +239,12 @@
     .contact-item {
         flex-direction: column;
         align-items: unset !important;
+        .icon {
+            margin-bottom: 0.5rem;
+        }
+        p{
+            text-align: right;
+        }
     }
 }
 

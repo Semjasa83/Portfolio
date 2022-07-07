@@ -209,7 +209,7 @@ section {
             left: 0;
             top: 0;
             z-index: -1;
-            clip-path: polygon(1% 0%, 1% 100%, 89% 100%, 68% 72%, 53% 46%, 46% 15%, 43% 0%);
+clip-path: polygon(0% 0%, 0% 100%, 83% 100%, 67% 79%, 52% 56%, 43% 25%, 41% 0%);
 
             //clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
         }
@@ -227,10 +227,10 @@ section {
                 height: 100%;
                 object-fit: cover;
                 transition: all .4s ease-in-out;
-                filter: grayscale(100%);
+                filter: grayscale(0);
 
                 &:hover {
-                    filter: grayscale(0);
+                    filter: grayscale(50%);
                 }
             }
         }
@@ -244,12 +244,10 @@ section {
 
         .name {
             font-size: 3rem;
-
             span {
                 color: var(--color-secondary);
             }
         }
-
         p {
             margin: 1.5rem 0;
             line-height: 2rem
@@ -348,15 +346,20 @@ section {
                 padding-bottom: 0.5rem;
             }
             .progress-img{
-                padding-top: 0.5rem;
-                padding-bottom: 0.5rem;
-                img{
-                height: 80px;
-                width: 80px;
-                object-fit: cover;
-                padding: 0.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 0.75rem;
+                height: 75px;
+                width: 75px;
                 background-color: var(--color-grey-7);
                 border-radius: 50%;
+                img{
+                height: 60px;
+                width: 60px;
+                object-fit: cover;
+                padding: 0.5rem;
+
                 cursor: pointer;
                 &:hover{
                     background-color: var(--color-secondary);
