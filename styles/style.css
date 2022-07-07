@@ -533,9 +533,10 @@ section {
 
 .blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
+  max-width: 500px;
 }
 .blogs .blog {
   position: relative;
