@@ -547,9 +547,9 @@ clip-path: polygon(0% 0%, 0% 100%, 83% 100%, 67% 79%, 52% 56%, 43% 25%, 41% 0%);
 .blogs {
     display: grid;
     grid-template-columns: repeat(1fr);
-    grid-gap: 2rem;
-    margin-top: 3rem;
-    max-width: 500px;
+    //grid-gap: 2rem;
+    margin-top: 5rem;
+    max-width: auto;
     .blog{
         position: relative;
         background-color: var(--color-grey-5);

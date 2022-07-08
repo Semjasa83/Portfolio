@@ -60,7 +60,7 @@
     }
 
     .blogs {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .main-title {
@@ -239,12 +239,23 @@
     .contact-item {
         flex-direction: column;
         align-items: unset !important;
+
         .icon {
             margin-bottom: 0.5rem;
         }
-        p{
+
+        p {
             text-align: right;
         }
     }
 }
 
+@media screen and (max-width: 375px) {
+    .controls {
+        .control {
+            padding: 0.5rem;
+            height: 36px;
+            width: 36px;
+        }
+    }
+}

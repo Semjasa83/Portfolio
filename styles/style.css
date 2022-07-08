@@ -534,9 +534,8 @@ section {
 .blogs {
   display: grid;
   grid-template-columns: repeat(1fr);
-  grid-gap: 2rem;
-  margin-top: 3rem;
-  max-width: 500px;
+  margin-top: 5rem;
+  max-width: auto;
 }
 .blogs .blog {
   position: relative;
@@ -817,7 +816,7 @@ section {
   }
 
   .blogs {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .main-title h2 {
@@ -974,5 +973,12 @@ section {
   }
   .contact-item p {
     text-align: right;
+  }
+}
+@media screen and (max-width: 375px) {
+  .controls .control {
+    padding: 0.5rem;
+    height: 36px;
+    width: 36px;
   }
 }/*# sourceMappingURL=style.css.map */
