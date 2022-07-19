@@ -21,6 +21,8 @@
     --color-grey-5: #2a2e35;
     --color-grey-6: #12181b;
     --color-grey-7: #6c7983;
+    --color-popup: #8f8f8f90;
+    --color-popup-sec: #fd8d3c;
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3)
 }
@@ -38,6 +40,8 @@
     --color-grey-5: #dfdfdf;
     --color-grey-6: #12181b;
     --color-grey-7: #dfdfdf;
+    --color-popup: #f8f8f890;
+    --color-popup-sec: #678bcd;
 }
 
 body {
@@ -785,6 +789,39 @@ clip-path: polygon(0% 0%, 0% 100%, 83% 100%, 67% 79%, 52% 56%, 43% 25%, 41% 0%);
             transform: translate(-50%, -50%);
             font-weight: 800;
             font-size: 6.3rem;
+        }
+    }
+}
+
+/* Email Popup*/
+
+#landingPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+    background-color: var(--color-popup);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .landingFrame {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-white);
+        border-color: var(--color-primary);
+        background-color: var(--color-popup-sec);
+        border-radius: 30px;
+        height: 25%;
+        width: 50%;
+        span {
+            padding: 1rem;
+        }
+        button {
+            padding: 0.5rem 1rem;
         }
     }
 }
