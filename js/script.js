@@ -14,8 +14,7 @@ function clearValues(){
 }
 
 function clearTextArea() {
-    const textArea = document.getElementById('contactText');
-    textArea.value = '';
+    document.getElementById('contactText').value = '';
 }
 
 function closeEmailPopup() {

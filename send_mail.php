@@ -2,8 +2,8 @@
 
 ########### CONFIG ###############
 
-$recipient = 'marceldezanna@yahoo.de;
-$redirect = 'https://norman-rahmel.developerakademie.net/nrPortfolio/succes.html'; /* succes.html anlegen - landing page zur bestätigung */
+$recipient = 'info@marcel-de-zanna.com';
+//$redirect = 'https://'; /* succes.html anlegen - landing page zur bestätigung */
 
 ########### CONFIG END ###########
 
