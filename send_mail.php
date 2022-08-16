@@ -3,10 +3,9 @@
 ########### CONFIG ###############
 
 $recipient = 'info@marcel-de-zanna.com';
-//$redirect = 'https://'; /* succes.html anlegen - landing page zur bestätigung */
+$redirect = 'succes.html';
 
 ########### CONFIG END ###########
-
 
 
 ########### Intruction ###########   
