@@ -870,6 +870,15 @@ section {
   transition: all 0.4s ease-out;
 }
 
+.contentSentMail {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1606px) {
   header {
     padding: 0 !important;

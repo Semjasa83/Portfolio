@@ -886,4 +886,13 @@ clip-path: polygon(0% 0%, 0% 100%, 83% 100%, 67% 79%, 52% 56%, 43% 25%, 41% 0%);
     }
 }
 
+.contentSentMail {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 @import './media';
