@@ -1,8 +1,8 @@
 
 function emailSubmit() {
-    const popup = document.getElementById('popUp');
-    popup.classList.remove('popNone');
-    popup.classList.add('popShow');
+    //const popup = document.getElementById('popUp');
+    //popup.classList.remove('popNone');
+    //popup.classList.add('popShow');
     clearValues();
 }
 
