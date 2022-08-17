@@ -7,14 +7,14 @@ function emailSubmit() {
 }
 
 function clearValues(){
-    document.getElementById('contactEmail').value = '';
-    document.getElementById('contactName').value = '';
-    document.getElementById('contactSubject').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('name').value = '';
+    document.getElementById('subject').value = '';
     clearTextArea();
 }
 
 function clearTextArea() {
-    document.getElementById('contactText').value = '';
+    document.getElementById('message').value = '';
 }
 
 function closeEmailPopup() {
