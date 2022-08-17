@@ -731,6 +731,12 @@ section {
   display: flex;
   justify-content: flex-start;
 }
+.contact-content-con .right-contact .submit-btn button {
+  z-index: 0;
+}
+.contact-content-con .right-contact .submit-btn button a {
+  z-index: 2;
+}
 
 /* Independed components */
 .btn-con {
@@ -748,6 +754,7 @@ section {
   align-self: flex-start;
   align-items: center;
   overflow: hidden;
+  background-color: transparent !important;
 }
 .main-btn .btn-text {
   padding: 0 2rem;

@@ -394,23 +394,25 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form #form action="http://marcel-de-zanna.com/send_mail.php" method="POST" class="contact-form">
+                        <form #form action="https://marcel-de-zanna.com/send_mail.php" method="POST" class="contact-form">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME" id="name">
-                                <input type="email" required placeholder="YOUR EMAIL" id="email">
+                                <input type="text" required placeholder="YOUR NAME" #name name="name">
+                                <input type="email" required placeholder="YOUR EMAIL" #email name="email">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT" id="subject">
+                                <input type="text" required placeholder="ENTER SUBJECT" #subject name="subject">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="message" cols="15" rows="8" required placeholder="MESSAGE HERE.." id="contactText"></textarea>
+                                <textarea name="message" #message cols="15" rows="8" required placeholder="MESSAGE HERE.." id="contactText"></textarea>
                             </div>
 
                             <div class="submit-btn" onclick="emailSubmit()">
-                                <a href="succes.html" class="main-btn">
-                                    <span class="btn-text">Send Email</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
+                                <button class="main-btn">
+                                    <a href="succes.html" class="main-btn">
+                                        <span class="btn-text">Send Email</span>
+                                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                    </a>
+                                </button>
                             </div>
 
                         </form>

@@ -740,6 +740,12 @@ clip-path: polygon(0% 0%, 0% 100%, 83% 100%, 67% 79%, 52% 56%, 43% 25%, 41% 0%);
         .submit-btn {
             display: flex;
             justify-content: flex-start;
+            button {
+                z-index: 0;
+                a {
+                    z-index: 2;
+                }
+            }
         }
     }
 }
@@ -760,6 +766,7 @@ clip-path: polygon(0% 0%, 0% 100%, 83% 100%, 67% 79%, 52% 56%, 43% 25%, 41% 0%);
     align-self: flex-start;
     align-items: center;
     overflow: hidden;
+    background-color: transparent !important;
     .btn-text {
         padding: 0 2rem;
     }
@@ -790,6 +797,7 @@ clip-path: polygon(0% 0%, 0% 100%, 83% 100%, 67% 79%, 52% 56%, 43% 25%, 41% 0%);
         }
     }
 }
+
 
 .main-title {
     text-align: center;
